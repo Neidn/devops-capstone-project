@@ -96,7 +96,7 @@ Complete this microservice by implementing REST API's for `READ`, `UPDATE`, `DEL
 
 ## Build Status
 
-![Build Status](https://github.com/Neidn/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+![Build Status](https://github.com/Neidn/devops-capstone-project/actions/workflows/ci-build.yml/badge.svg)
 
 ## Local Kubernetes Development
 
