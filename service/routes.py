@@ -66,7 +66,6 @@ def create_accounts():
 def list_accounts():
     """Returns all the Accounts"""
     app.logger.info("Request for account list")
-    accounts = []
     # for account in Account.find_all():
     #     accounts.append(account.serialize())
     # return make_response(jsonify(accounts), status.HTTP_200_OK)
@@ -137,6 +136,7 @@ def delete_account(account_id):
     if account:
         account.delete()
     return make_response("", status.HTTP_204_NO_CONTENT)
+
 
 ######################################################################
 #  U T I L I T Y   F U N C T I O N S
