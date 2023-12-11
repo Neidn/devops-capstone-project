@@ -203,7 +203,7 @@ class TestAccountService(TestCase):
         """It should return security headers"""
         resp = self.client.get(
             "/",
-            envrion_overrides=HTTPS_ENVIRON
+            headers=HTTPS_ENVIRON
         )
         self.assertEqual(resp.status_code, status.HTTP_200_OK)
 
@@ -221,7 +221,7 @@ class TestAccountService(TestCase):
         """It should return CORS headers"""
         resp = self.client.get(
             "/",
-            envrion_overrides=HTTPS_ENVIRON
+            headers=HTTPS_ENVIRON
         )
         self.assertEqual(resp.status_code, status.HTTP_200_OK)
 
