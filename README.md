@@ -94,6 +94,10 @@ The Account model contains the following fields:
 
 Complete this microservice by implementing REST API's for `READ`, `UPDATE`, `DELETE`, and `LIST` while maintaining **95%** code coverage. In true **Test Driven Development** fashion, first write tests for the code you "wish you had", and then write the code to make them pass.
 
+## Build Status
+
+![Build Status](https://github.com/Neidn/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 ## Local Kubernetes Development
 
 This repo can also be used for local Kubernetes development. It is not advised that you run these commands in the Cloud IDE environment. The purpose of these commands are to simulate the Cloud IDE environment locally on your computer. 
