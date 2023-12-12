@@ -16,6 +16,7 @@ spec:
     - name: branch
       default: main
     - name: build-image
+      default: "image-registry.openshift-image-registry.svc:5000/$SN_ICR_NAMESPACE/accounts:1"
   tasks:
     - name: init
       workspaces:
